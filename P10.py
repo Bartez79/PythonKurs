@@ -109,3 +109,18 @@ los1 = Lotto()
 los1.sortowanie()
 los1.czas('2017-05-16')
 print(los1)
+
+class Bazowa:
+    a = 1
+    def wypisz(self):
+        print('Jestem w klasie Bazowa')
+b1 = Bazowa()
+b1.wypisz()
+
+class Potomna(Bazowa):
+    b = 2
+    def info(self):
+        print('Jestem w klasie Potomna')
+
+
+
